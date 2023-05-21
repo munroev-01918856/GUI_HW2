@@ -2,7 +2,7 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-color: ;
+	
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,6 +19,8 @@ nav a:hover {
 h1 {
 	margin-bottom: 0;
 	padding: 10px;
+	background-color: #000033;
+	color: white;
 }
 h2 {
 	color: #3399CC;
@@ -37,3 +39,34 @@ footer {
 	font-family: Georgia, "Times New Roman", serif;
 }
 
+
+#wrapper{
+	margin:auto;
+
+
+}
+
+#content{
+	padding: 10px;
+	margin-top:75px;
+	margin-left: 150px;
+	width: 80%;
+	max-width: 600px;
+}
+
+nav{
+	margin-top:75px;
+	height: 100%;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(93, 154, 174);
+    color: white;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
