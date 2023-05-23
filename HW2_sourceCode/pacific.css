@@ -1,20 +1,28 @@
+/* File: style.css
+GUI Assignment: HW 2 - Style a Site with External CSS
+Victoria Munroe victoria_munroe@student.uml.edu
+Description: A sytlized travel page
+
+Copyright (c) 2023 by VMunroe. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+created by VM 05/22/23
+
+Sources: 
+w3Schools w3schools.com
+TutorialsPoint 
+Travesty Media: youtube.com/watch?v=yfoY53QXEnI&t=916s
+*/
+
+
+
+/* General Formatting */
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
+
 body {
 	
 	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-nav ul {
-	font-size: 1.2em;
-}
-nav a:visited {
-	color: #344873;
-}
-nav a:hover {
-	color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
 	margin-bottom: 0;
@@ -29,31 +37,11 @@ h1,
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
-#contact {
-	font-size: 90%;
-}
-dt {
-	color: #000033;
-}
-footer {
-	font-family: Georgia, "Times New Roman", serif;
-}
-
-
 #wrapper{
-	margin:auto;
-
-
+    margin:auto;
 }
 
-#content{
-	padding: 10px;
-	margin-top:75px;
-	margin-left: 150px;
-	width: 80%;
-	max-width: 600px;
-}
-
+/* Nav Bar */
 nav{
 	margin-top:75px;
 	height: 100%;
@@ -70,3 +58,35 @@ nav{
     padding-left: 5px;
     padding-right: 5px;
 }
+nav ul {
+	font-size: 1.2em;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* Main Content */
+#content{
+	padding: 10px;
+	margin-top:75px;
+	margin-left: 150px;
+	width: 80%;
+	max-width: 600px;
+}
+
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+
+
