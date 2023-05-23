@@ -23,7 +23,10 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 
 body {
 	
-	color: #666666;
+	
+	background-color: #00569f;
+	height: 100%;
+	width: 100%; /*fixme*/
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -40,6 +43,7 @@ h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
 #wrapper{
+	background-color: white;
     margin:auto; /*Fixme nav bar not following*/	
 	height:auto;
 	width: 80%;
@@ -48,11 +52,10 @@ h2 {
 
 /* Nav Bar */
 nav{
-	margin-top:75px;
+	
 	height: 100%;
     width: 150px;
     text-align: left;
-    position: fixed;
     background-color: rgb(93, 154, 174);
     color: white;
     padding-top: 20px;
@@ -77,10 +80,14 @@ nav a:hover {
 
 /* Main Content */
 #content{
+	color: #000;
 	padding: 10px;
 	margin-left:150px;
 }
-
+#content p{
+	/* fixme */
+	text-align: justify;
+}
 #content ul{
 	list-style-image: url('marker.gif');
 }
