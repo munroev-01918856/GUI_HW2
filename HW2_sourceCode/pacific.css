@@ -47,9 +47,9 @@ h2 {
 nav{
 	margin-top:75px;
 	height: 100%;
-    width: 150px;
+    width: 170px;
     align-items: center;
-    text-align: center;
+    text-align: left;
     position: fixed;
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -64,9 +64,14 @@ nav ul {
 	font-size: 1.2em;
 	list-style-type: none;
 }
-nav a:visited {
-	color: #344873;
+nav a{
+    color:  #000033;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: right; /*fixme*/
+
 }
+
 nav a:hover {
 	color: #FFFFFF;
 }
@@ -75,7 +80,7 @@ nav a:hover {
 #content{
 	padding: 10px;
 	margin-top:75px;
-	margin-left: 150px;
+	margin-left:170px;
 	width: 80%;
 	max-width: 600px;
 }
@@ -93,7 +98,7 @@ footer {
 	font-family: Georgia, "Times New Roman", serif;
 	padding: 10px;
 	margin-top:75px;
-	margin-left: 150px;
+	margin-left: 170px;
 	width: 80%;
 	max-width: 600px;
 }
