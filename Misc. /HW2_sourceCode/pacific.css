@@ -17,6 +17,9 @@ getcssscan.com/blog/how-to-remove-bullets-from-li-css
 
 
 /* General Formatting */
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
 
 body {
 	background-color: #00569f;
@@ -37,11 +40,11 @@ h2 {
 }
 #wrapper{
 	background-color: white;
+    margin:auto; /*Fixme nav bar not following*/	
 	height:auto;
 	max-width: 7600px;
 	display:grid;
 	grid-template-columns: 160px 80%;
-	grid-template-rows: 10%,80%,10%;
 }
 
 
@@ -54,7 +57,7 @@ nav{
     text-align: left;
     background-color: rgb(93, 154, 174);
     color: white;
-	grid-row: 2/4;
+	grid-row: 2/4;;
 }
 nav ul {
 	font-size: 1.2em;
