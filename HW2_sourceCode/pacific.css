@@ -37,11 +37,11 @@ h2 {
 }
 #wrapper{
 	background-color: white;
-	height:auto;
-	max-width: 7600px;
+	max-width: 760px; /*Fixme*/
 	display:grid;
 	grid-template-columns: 160px 80%;
-	grid-template-rows: 10%,80%,10%;
+	grid-template-rows: 10% 80% 10%;
+	column-gap: 10px;
 }
 
 
