@@ -23,9 +23,11 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 
 body {
 	background-color: #00569f;
+	background-image: url("ptrbackground.jpg"); /*Fixme fix sizing to end ar right place*/
 	height: 100%;
 	width: 100%; /*fixme*/
     font-family: Arial, Helvetica, sans-serif;
+
 }
 h1 {
 	background-color: #000033;
@@ -47,16 +49,15 @@ h2 {
 	grid-template-columns: 160px 80%;
 	column-gap: 10px;
 }
-
-
-
+a{
+	text-decoration: none;
+}
 /*header*/
 header{
 	grid-column: 1/3;
 }
 /* Nav Bar */
 nav{
-    text-align: left;
     background-color: rgb(93, 154, 174);
     color: white;
 	grid-row: 2/4;;
@@ -67,7 +68,6 @@ nav ul {
 }
 nav a{
     color:  #000033;
-	text-decoration: none;
 	font-weight: bold;
 	text-align: right; /*fixme*/
 
@@ -81,21 +81,31 @@ nav a:hover {
 #content{
 	color: #000;
 }
-#content p{
-	/* fixme */
-	text-align: justify;
+
+.resort{
+	font-size: 1.3em;
+	color: #134673;
 }
 #content ul{
 	list-style-image: url('marker.gif');
 }
+
 #contact {
 	font-size: 90%;
 }
 dt {
 	color: #000033;
 }
+
+/* footer */
 footer {
 	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	
+}
+
+footer a{
+	font-style: normal; /*fixme messy way to italize*/
 }
 
 
