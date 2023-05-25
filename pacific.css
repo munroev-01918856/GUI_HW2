@@ -53,9 +53,7 @@ h2 {
 	max-width: 800px;
 	width: fit-content;
 	display:grid;
-	grid-template-columns: 160px 80%;
-	/*column-gap: 10px;*/
-	/*overflow: hidden;*/
+	grid-template-columns: 160px 80%; /*fixme sizing off*/
 }
 
 /*header*/
@@ -93,7 +91,7 @@ nav a:hover {
 }
 
 img {
-  	/*float: left;*/
+  	float: left;
 	margin-right: 25px;
 }
 
@@ -105,6 +103,7 @@ img {
 #content ul{
 	list-style-image: url('marker.gif');
 	list-style-position: inside;
+	text-align: justify;
 }
 
 #contact {
