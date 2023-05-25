@@ -28,12 +28,12 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 
 body {
 	background-color: #00569f;
-	background-image: url("ptrbackground.jpg"); /*Fixme fix sizing to end ar right place*/
+	background-image: url("ptrbackground.jpg");
 	height: 100%;
-	width: 100%; /*fixme*/
+	width: 100%; 
     font-family: Arial, Helvetica, sans-serif;
-
 }
+
 h1 {
 	background-color: #000033;
 	background-image: url("sunset.jpg");
@@ -68,7 +68,7 @@ header{
 }
 /* Nav Bar */
 nav{
-    background-color: rgb(93, 154, 174);
+    background-color:#3399CC;
     color: white;
 	grid-row: 2/4;;
 }
@@ -80,7 +80,7 @@ nav a{
     color:  #000033;
 	text-decoration: none;
 	font-weight: bold;
-	text-align: right; /*fixme*/
+	text-align: right;
 
 }
 
@@ -101,7 +101,6 @@ img {
 }
 
 .resort{
-	/*font-size: 1.3em;*/
 	font-weight: bold;
 	color: #134673;
 }
