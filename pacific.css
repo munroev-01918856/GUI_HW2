@@ -127,6 +127,7 @@ footer {
 
 footer a{
 	font-style: normal; /*fixme messy way to italize*/
+	text-decoration: none;
 }
 
 
