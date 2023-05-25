@@ -58,7 +58,7 @@ h2 {
 	min-width: 760px;
 	width: fit-content;
 	display:grid;
-	grid-template-columns: 160px 80fr;
+	grid-template-columns: 200px 80fr;
 }
 
 /*header*/
@@ -90,6 +90,7 @@ nav a:hover {
 
 /* Main Content */
 #content{
+	font-size: medium;
 	color: #000;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -130,7 +131,6 @@ footer {
 
 footer a{
 	font-style: normal; /*fixme messy way to italize*/
-	text-decoration: none;
 }
 
 
