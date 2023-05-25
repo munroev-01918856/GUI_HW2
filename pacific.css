@@ -58,7 +58,7 @@ h2 {
 	min-width: 760px;
 	width: fit-content;
 	display:grid;
-	grid-template-columns: 160px 80%; /*fixme sizing off*/
+	grid-template-columns: 160px 80fr;
 }
 
 /*header*/
