@@ -53,6 +53,8 @@ h2 {
 }
 #wrapper{
 	background-color: white;
+	margin-left: min(10%);
+	margin-right:  min(10%);
 	margin-left: auto;
 	margin-right: auto;	
 	min-width: 760px;
