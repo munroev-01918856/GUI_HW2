@@ -12,12 +12,12 @@ TutorialsPoint
 Travesty Media: youtube.com/watch?v=yfoY53QXEnI&t=916s
 nikitahl.com/custom-bullet-points-css
 getcssscan.com/blog/how-to-remove-bullets-from-li-css
+bobbyhadz.com/blog/set-min-max-margin-and-padding-in-css
 */
 
 /* Fixme Issues:
-	text going out of bounds
-	size
-	header not sizing */
+	Text not aliging with photo properly	
+*/
 
 
 
@@ -54,7 +54,7 @@ h2 {
 #wrapper{
 	background-color: white;
 	margin-left: min(10%);
-	margin-right:  min(10%);
+	margin-right:  min(10%); 
 	margin-left: auto;
 	margin-right: auto;	
 	min-width: 760px;
@@ -95,7 +95,7 @@ nav a:hover {
 	font-size: medium;
 	color: #000;
 	padding-left: 25px;
-	padding-right: 25px;
+	padding-right: 30px;
 }
 
 img {
