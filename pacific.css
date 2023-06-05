@@ -15,9 +15,6 @@ getcssscan.com/blog/how-to-remove-bullets-from-li-css
 bobbyhadz.com/blog/set-min-max-margin-and-padding-in-css
 */
 
-/* Fixme Issues:
-	Text not aliging with photo properly	
-*/
 
 
 
@@ -54,8 +51,6 @@ h2 {
 }
 #wrapper{
 	background-color: white;
-	/*margin-left: min(10%, 10px);
-	margin-right:  min(10%, 10px);*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -65,16 +60,14 @@ h2 {
 	grid-template-columns: 175px 1fr;
 }
 
-/*@media screen and (max-width: 700px){
-#wrapper{margin-left: min (10%);
-margin-right: min(10/%);}
-}*/
+
 
 /*header*/
 header{
 	grid-column: 1/3;
 	width: 100%;	
 }
+
 /* Nav Bar */
 nav{
     background-color:#3399CC;
